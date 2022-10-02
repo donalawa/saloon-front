@@ -1,14 +1,16 @@
 import React from "react";
-import styles from  "./client.module.css";
+import styles from  "./request.module.css";
 
 const login = () => {
     return (
         <div className={styles.tableContainer}>
             <table>
         <tr className={styles.tableRow}>
-            <th className={styles.tableHead}>Client Name</th>
-            <th className={styles.tableHead}>Times Visited</th>
-            <th className={styles.tableHead}>Amount Spend</th>
+            <th className={styles.tableHead}>Name</th>
+            <th className={styles.tableHead}>Date</th>
+            <th className={styles.tableHead}>Time</th>
+            <th className={styles.tableHead}>Style</th>
+            <th className={styles.tableHead}>Action</th>
         </tr>
         <tr>
             <td className={styles.tableData}>Anom</td>

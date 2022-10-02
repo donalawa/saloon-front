@@ -1,5 +1,5 @@
 .tableContainer{
-    width: 80%;
+    width: 100%;
     height: inherit;
     margin: 50px auto;
     padding-left: 100px;
@@ -21,9 +21,6 @@
 .tableData{
     width: 40%;
     text-align: center;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     border-bottom: 1px solid black;
 }
-
-
-
