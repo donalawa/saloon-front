@@ -1,0 +1,23 @@
+.tableContainer{
+    width: 60%;
+    height: inherit;
+    margin: 50px auto;
+    background-color: brown;
+}
+/* .tableRow{
+    margin-left: 10%; 
+    border: 2px solid blue;
+} */
+.tableHead{
+    width: 100%;
+    padding-left: 150px;
+    /* text-align: center; */
+    border: 1px solid black;
+}
+
+.tableData{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 2px;
+}
