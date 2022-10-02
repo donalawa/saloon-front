@@ -1,11 +1,11 @@
 import React from "react";
-import styles from  "./login.module.css";
+import styles from  "./client.module.css";
 
 const login = () => {
     return (
         <div className={styles.tableContainer}>
             <table>
-        <tr >
+        <tr className="tableRow">
             <th className={styles.tableHead}>Client Name</th>
             <th className={styles.tableHead}>Times Visited</th>
             <th className={styles.tableHead}>Amount Spend</th>
